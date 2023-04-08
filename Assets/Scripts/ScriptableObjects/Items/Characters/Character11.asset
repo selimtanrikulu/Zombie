@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf71b64f89c62a4bbd913d121a129f0, type: 3}
+  m_Name: Character11
+  m_EditorClassIdentifier: 
+  ItemName: Character
+  Grade: 1
+  itemSprite: {fileID: 21300000, guid: f2e3a3acae6b5554aa24bfa5be9e9678, type: 3}
+  requiredRank: 4
+  characterID: 10
+  CharacterWearings:
+    Balaclava: {fileID: 0}
+    Body: {fileID: 21300000, guid: 936a63c0f1b05da419602e92fea01f88, type: 3}
+    Googles: {fileID: 0}
+    Head: {fileID: 21300000, guid: f2e3a3acae6b5554aa24bfa5be9e9678, type: 3}
+    HeadGear: {fileID: 0}
+    Strap: {fileID: 0}
+    Jacket: {fileID: 0}
+    Mask: {fileID: 0}
+    PantsCore: {fileID: 21300000, guid: 5714986bb9544284893d5f6b506b1b42, type: 3}
+    Pants1Left: {fileID: 21300000, guid: 39f0e1335e8af1147944391ec291979b, type: 3}
+    Pants1Right: {fileID: 21300000, guid: ff84a9895f1c69d4e9bc3d167c315a05, type: 3}
+    Pants2Left: {fileID: 21300000, guid: b8e6ae2864a399e4bb4d1834b522f079, type: 3}
+    Pants2Right: {fileID: 21300000, guid: d8da0aed17e7c0a43a75c9659df67804, type: 3}
+    BootsLeft: {fileID: 21300000, guid: c9d040f4d6285274d825b05651a9c793, type: 3}
+    BootsRight: {fileID: 21300000, guid: edf2d9493a173b04bae319e98baa51ea, type: 3}
+    Shirt: {fileID: 21300000, guid: 6b47b965376dfe4469cda2c39b48d80e, type: 3}
+    RightHand1: {fileID: 21300000, guid: 8b6866760d55c494aa780277f70c4b67, type: 3}
+    RightHand2: {fileID: 21300000, guid: 93c1d757b9b9dea45a9f2a2da42529e1, type: 3}
+    RightHand3: {fileID: 21300000, guid: 03a43a7407723014baaf555a20305743, type: 3}
+    LeftHand1: {fileID: 21300000, guid: 351b92628229da54184124981c33eddb, type: 3}
+    LeftHand2: {fileID: 21300000, guid: 64e9182c87e0dac48969f09f5729e18d, type: 3}
+    LeftHand3: {fileID: 21300000, guid: d1bb523f12e8d5545b02ccd458a2b1ef, type: 3}
+  movementSpeed: 78
+  evade: 7
+  hp: 920

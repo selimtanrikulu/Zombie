@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf71b64f89c62a4bbd913d121a129f0, type: 3}
+  m_Name: Character12
+  m_EditorClassIdentifier: 
+  ItemName: Character
+  Grade: 1
+  itemSprite: {fileID: 21300000, guid: 9e786b4b2db3dd84bb2fc22459981d5a, type: 3}
+  requiredRank: 7
+  characterID: 11
+  CharacterWearings:
+    Balaclava: {fileID: 0}
+    Body: {fileID: 21300000, guid: 936a63c0f1b05da419602e92fea01f88, type: 3}
+    Googles: {fileID: 0}
+    Head: {fileID: 21300000, guid: 9e786b4b2db3dd84bb2fc22459981d5a, type: 3}
+    HeadGear: {fileID: 21300000, guid: de4ad14f6751453468e817ece181c0ff, type: 3}
+    Strap: {fileID: 0}
+    Jacket: {fileID: 21300000, guid: ebda6008f4ba7ef4a8eeb5e0a66c1f78, type: 3}
+    Mask: {fileID: 0}
+    PantsCore: {fileID: 21300000, guid: 6ad0e2cdf21396c49ad3a82fad632e91, type: 3}
+    Pants1Left: {fileID: 21300000, guid: a75821bab47f00e48b291533eca03895, type: 3}
+    Pants1Right: {fileID: 21300000, guid: 65fe89295a049db49b10782df387627d, type: 3}
+    Pants2Left: {fileID: 21300000, guid: 1e3c0a6a67365654c94087b70094dd1e, type: 3}
+    Pants2Right: {fileID: 21300000, guid: 58ab6304f334d164f80519358c8825e5, type: 3}
+    BootsLeft: {fileID: 21300000, guid: c9d040f4d6285274d825b05651a9c793, type: 3}
+    BootsRight: {fileID: 21300000, guid: edf2d9493a173b04bae319e98baa51ea, type: 3}
+    Shirt: {fileID: 21300000, guid: 7f30cc31d7c037f4691a188b8ec91627, type: 3}
+    RightHand1: {fileID: 21300000, guid: 9a960092d3e76884e91d625aa6659445, type: 3}
+    RightHand2: {fileID: 21300000, guid: 93c1d757b9b9dea45a9f2a2da42529e1, type: 3}
+    RightHand3: {fileID: 21300000, guid: 03a43a7407723014baaf555a20305743, type: 3}
+    LeftHand1: {fileID: 21300000, guid: a51c1a13d6e07d34aab41f15f9356f61, type: 3}
+    LeftHand2: {fileID: 21300000, guid: 64e9182c87e0dac48969f09f5729e18d, type: 3}
+    LeftHand3: {fileID: 21300000, guid: d1bb523f12e8d5545b02ccd458a2b1ef, type: 3}
+  movementSpeed: 81
+  evade: 11
+  hp: 1100

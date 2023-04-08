@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4479671029371147326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5575817096330544810}
+  - component: {fileID: 468018276556681137}
+  - component: {fileID: 6307054692517144170}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5575817096330544810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479671029371147326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468018276556681137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479671029371147326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 6307054692517144170}
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 1
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1
+--- !u!114 &6307054692517144170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479671029371147326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db64f7b0783d6a44b19476cfafafe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPack:
+    Guns:
+    - {fileID: 11400000, guid: b9d5d0fc69d54d8489e0d90c847169c2, type: 2}
+    - {fileID: 11400000, guid: 00738a4fba634cb4eb5715b85476cbfd, type: 2}
+    - {fileID: 11400000, guid: 6ff48e87c2a6fc041b4556498a4b3345, type: 2}
+    Melees:
+    - {fileID: 11400000, guid: 2c8a2c78cd6f1894095fcb9243323108, type: 2}
+    - {fileID: 11400000, guid: e68245c934c451f47a5648118d13ebea, type: 2}
+    - {fileID: 11400000, guid: a7e3a11d8f87d614cbe41326ec5f99e2, type: 2}
+    Characters:
+    - {fileID: 11400000, guid: 54b4b797b7d8cbe4ebe158c31976fd2d, type: 2}
+    - {fileID: 11400000, guid: 6c4438e92ecdb16418d11c5d2cbaaef0, type: 2}
+    - {fileID: 11400000, guid: db836d3567aff8743b867483fbaaf032, type: 2}
+  prefabsPack:
+    GamePrefabs:
+    - PrefabType: 0
+      Prefab: {fileID: 1030842771246122239, guid: 57103a13cd95dee42aef3fbfd21db83b, type: 3}
+    - PrefabType: 3
+      Prefab: {fileID: 5789971107907468528, guid: 4a01c88a5ef33e24e8c63b26e17d73d4, type: 3}
+    - PrefabType: 4
+      Prefab: {fileID: 4305722220100940078, guid: e50f2006813128545be219ff896dca14, type: 3}
+    - PrefabType: 7
+      Prefab: {fileID: 7456826861498343654, guid: d101fb9f5ce390c4fa0744a6e36fefae, type: 3}
+    - PrefabType: 5
+      Prefab: {fileID: 8116658216792530240, guid: dff190d674c4e284695c07c3944657de, type: 3}
+    - PrefabType: 7
+      Prefab: {fileID: 7456826861498343654, guid: d101fb9f5ce390c4fa0744a6e36fefae, type: 3}
+    - PrefabType: 6
+      Prefab: {fileID: 5037903875227098432, guid: accc4996c7708994083a654e4b603d53, type: 3}
+  modalsPack:
+    GameModals:
+    - ModalType: 0
+      Prefab: {fileID: 7747077881942293804, guid: 678840109134457499779231e7b32ddc, type: 3}
+    - ModalType: 1
+      Prefab: {fileID: 7747077881942293804, guid: 7f5dd051c82d69143856609d77b2da1b, type: 3}
+    - ModalType: 2
+      Prefab: {fileID: 7747077881942293804, guid: 3f7d01f0e30c5f144a251c9ace20f828, type: 3}
+    - ModalType: 3
+      Prefab: {fileID: 7747077881942293804, guid: ea461b0f883ffcc4290c66e109c68750, type: 3}
+    - ModalType: 4
+      Prefab: {fileID: 7747077881942293804, guid: 7d8ea40ee5355ae4cbf8509d18359dfd, type: 3}
+    - ModalType: 5
+      Prefab: {fileID: 7747077881942293804, guid: 834f26056d46175479718a211942dfb2, type: 3}
+    - ModalType: 6
+      Prefab: {fileID: 7747077881942293804, guid: e42f59786ae2f8d429e0320c782e06bf, type: 3}
+    - ModalType: 7
+      Prefab: {fileID: 7747077881942293804, guid: 60318dd59f44a9a4cae22c9fb7e9544f, type: 3}
+    - ModalType: 8
+      Prefab: {fileID: 3739569544530696862, guid: 637b747178db96a47b806d3101d31b05, type: 3}
